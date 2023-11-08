@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food</title>
+
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MMT Food Services</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Restaurants</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Coupons</a>
+              </li>
+            </ul>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <br>
+    <br>
+    <main>
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- Placeholder for Image URL -->
+                <img src="https://redcliffelabs.com/myhealth/wp-content/uploads/2022/03/90.jpg" alt="Image 1">
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>Unlimited Discounts</h1>
+                    <p class="opacity-75">Order delicious Burger at up to 60% OFF</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- Placeholder for Image URL -->
+                <img src="https://www.markwellfoods.co.nz/wp-content/uploads/2023/02/Untitled-design-2023-02-28T124736.962-1024x561.png" alt="Image 2">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>WOW MOMOS</h1>
+                    <p>Order delicious MOMOS at up to 30% OFF</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- Placeholder for Image URL -->
+                <img src="https://media.istockphoto.com/id/1292563627/photo/assorted-south-indian-breakfast-foods-on-wooden-background-ghee-dosa-uttappam-medhu-vada.jpg?s=612x612&w=0&k=20&c=HvuYT3RiWj5YsvP2_pJrSWIcZUXhnTKqjKhdN3j_SgY=" alt="Image 3">
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>One more for good measure.</h1>
+                    <p>Some representative placeholder content for the third slide of this carousel.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+    
+    <!-- Product Cards -->
+   
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/23/71/b3/d8/margarida-dop-prestes.jpg" class="card-img-top" alt="Product 1">
+                <div class="card-body">
+                  <p class="card-text">Margherite Pizza.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <p class="card-text">$21.99</p>
+                    <div class="btn-group">
+                      <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>   
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://lh3.googleusercontent.com/pCVgmUF4PBYR4-Q-B-9RwKB-OcU_NkDaWzbyIuIVt3j_hXE7JMDzCfVCyjTAL-z9TwfV0Lgt41zlbVeYhnF4wiLlmHflXfN9WO9z8VzQ=w512-rw" class="card-img-top" alt="Product 1">
+                  <div class="card-body">
+                    <p class="card-text">Classic Onion Capsicum Pizza.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="card-text">$18.99</p>
+                      <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>  
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://www.dominos.co.in/files/items/spiced_doubled.jpg" class="card-img-top" alt="Product 1">
+                  <div class="card-body">
+                    <p class="card-text">ChickenKeema,Onion with Desi Makhani</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="card-text">$32.99</p>
+                      <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>  
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2018/04/29164215/Paradise1.jpg" class="card-img-top" alt="Product 1">
+                  <div class="card-body">
+                    <p class="card-text">Chicken Biryani</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="card-text">$50.00</p>
+                      <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>  
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://vaya.in/recipes/wp-content/uploads/2018/03/Zafrani-Chicken-Biriyani.jpg" class="card-img-top" alt="Product 1">
+                  <div class="card-body">
+                    <p class="card-text">Zafrani Chicken Biryani</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="card-text">$55.99</p>
+                      <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://kannanskitchen.com/wp-content/uploads/2021/04/DSC_1079_1.jpg" class="card-img-top" alt="Product 1">
+                  <div class="card-body">
+                    <p class="card-text">Veg Biryani</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="card-text">$72.99</p>
+                      <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>    
+        </div>
+    </div>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Your Company</p>
+        </div>
+    </footer>
+
+    <!-- Include Bootstrap and jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

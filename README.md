@@ -1,2 +1,2 @@
-# Online-Food-Services
+# OnlineFS
 https://maniteja03.github.io/Online-Food-Services/
